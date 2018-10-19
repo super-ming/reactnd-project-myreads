@@ -8,7 +8,7 @@ class Book extends React.Component {
     const shelf = this.props.book.shelf;
     //if book has authors and more than one author, add a comma between then
     const authors = (this.props.book.authors && this.props.book.authors.join(", "));
-    const avgRating = (this.props.book.averageRating ? `"Avg. Rating: "${this.props.book.averageRating}` : "No ratings")
+    const avgRating = (this.props.book.averageRating ? `Avg. Rating: ${this.props.book.averageRating}` : "No ratings")
     const categories = (this.props.book.categories ? this.props.book.categories : "No categories") ;
     return (
       <li>
@@ -27,8 +27,8 @@ class Book extends React.Component {
           </div>
           <div className="book-title">{this.props.book.title}</div>
           <div className="book-authors">{authors || "No authors"}</div>
-          <div className="book-authors">{avgRating}</div>
-          <div className="book-authors">{categories}</div>
+          <div className="book-ratings">{avgRating}</div>
+          <div className="book-categories">{categories}</div>
         </div>
       </li>
     )
