@@ -1,15 +1,18 @@
-# MyReads Project
+# MyReads App
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+This application allows the user to keep track of books by searching an dummy book library, adding books to a bookshelf, moving books between bookshelves, and removing books from an existing bookshelf.  
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+## How to Run
 
-## TL;DR
+### On local machine
 
-To get started developing right away:
+* Clone the repository to your working directory:
+* Install all project dependencies with `npm install`
+* Start the development server with `npm start`
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+## Dependencies
+* react^16.5.X
+* react-router-dom^4.3.1
 
 ## What You're Getting
 ```bash
@@ -85,8 +88,5 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## Acknowledgments
+The following resources really helped me with this project. https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be
