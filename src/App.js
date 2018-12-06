@@ -10,7 +10,7 @@ class App extends React.Component {
       <div className="app">
         <div>
           <Route path='/' component={ Main } />
-          <Route path='reactnd-project-myreads/search' component={ Search } />
+          <Route path='/search' component={ Search } />
         </div>
       </div>
     )
