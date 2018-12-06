@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div>
-          <Route exact path='reactnd-project-myreads/' component={ Main } />
+          <Route path='reactnd-project-myreads/' component={ Main } />
           <Route exact path='reactnd-project-myreads/search' component={ Search } />
         </div>
       </div>
