@@ -9,8 +9,8 @@ class App extends React.Component {
     return (
       <div className="app">
         <div>
-          <Route exact path='/' component={ Main } />
-          <Route exact path='/search' component={ Search } />
+          <Route path='/' component={ Main } />
+          <Route path='/search' component={ Search } />
         </div>
       </div>
     )

@@ -1,4 +1,6 @@
 {
+  "name": "MyReads",
+  "version": "1.0.0",
   "homepage": "https://super-ming.github.io/reactnd-project-myreads/",
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
