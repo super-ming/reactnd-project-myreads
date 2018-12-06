@@ -2,6 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
-ReactDOM.render(<BrowserRouter basename="/reactnd-project-myreads/"><App /></BrowserRouter>, document.getElementById('root'))
+ReactDOM.render(<HashRouter basename="/reactnd-project-myreads"><App /></HashRouter>, document.getElementById('root'))
