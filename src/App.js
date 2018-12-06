@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import Main from './components/pages/bookcase'
 import Search from './components/pages/search'
 
@@ -9,8 +9,10 @@ class App extends React.Component {
     return (
       <div className="app">
         <div>
-          <Route path='/' component={ Main } />
-          <Route path='/search' component={ Search } />
+          <Switch>
+            <Route path='/' component={ Main } />
+            <Route path='/search' component={ Search } />
+          </Switch>
         </div>
       </div>
     )
