@@ -12,8 +12,12 @@ This application allows the user to keep track of books by searching an dummy bo
 * Start the development server with `npm start`
 
 ## Dependencies
-* react^16.5.X
-* react-router-dom^4.3.1
+* react: ^16.3.2
+* react-router-dom: ^4.3.1
+* escape-string-regexp: ^1.0.5
+* prop-types: ^15.6.2
+* react-router-dom: ^4.3.1
+* sort-by: ^1.2.0
 
 ## What You're Getting
 ```bash
