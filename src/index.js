@@ -4,4 +4,4 @@ import App from './App'
 import './index.css'
 import { HashRouter } from 'react-router-dom'
 
-ReactDOM.render(<HashRouter basename="/reactnd-project-myreads"><App /></HashRouter>, document.getElementById('root'))
+ReactDOM.render(<HashRouter><App /></HashRouter>, document.getElementById('root'))
